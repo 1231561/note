@@ -28,6 +28,8 @@ public static void main(String[] args) {
 
 可以实现自定义Comparator接口，重写compare方法，定义自己的排序规则。
 
+自定义的Arrays.sort不能对基本类型的数组进行排序。
+
 #### 格式
 
 ```java
